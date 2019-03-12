@@ -7,8 +7,7 @@ pipeline {
                //bat  'mvn clean package'
 
                 /*For Mac & Linux machine */
-                sh 'export PATH="$PATH:/Users/Shared/Jenkins/Home/tools/hudson.tasks.Maven_MavenInstallation/LocalMaven/bin/mvn"'
-                sh  'mvn clean package'
+                sh  '/Users/Shared/Jenkins/Home/tools/hudson.tasks.Maven_MavenInstallation/LocalMaven/bin/mvn clean package'
             }
 
             post{
